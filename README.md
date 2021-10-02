@@ -1,6 +1,7 @@
 基于pytorch使用自己的数据继续训练bert
 
 # 步骤
+首先需要去hugging face上下载相关bert的模型，比如chinese-bert-wwm-ext。<br>
 1、输入的训练文件。<br>
 输入训练的文件有很多中形式，这里以csv文件为例，在csv文件中需要保存一列名为text的数据。<br>
 2、定义参数并进行训练<br>
