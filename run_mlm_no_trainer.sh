@@ -1,0 +1,1 @@
+python run_mlm_no_trainer.py --train_file "./train.csv" --model_name_or_path "../model_hub/chinese-bert-wwm-ext" --output_dir ./tmp/ --num_train_epochs 1 --max_seq_length 256 --preprocessing_num_workers 4
